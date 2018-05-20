@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4C000120B15F3100E6CF0E /* MomentsBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFFD20B15F2D00E6CF0E /* MomentsBodyView.m */; };
+		9C4C000220B15F3100E6CF0E /* MomentsToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C000020B15F3100E6CF0E /* MomentsToolBarView.m */; };
 		9C4CFFC720B136A300E6CF0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFC620B136A300E6CF0E /* AppDelegate.m */; };
 		9C4CFFCA20B136A300E6CF0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFC920B136A300E6CF0E /* ViewController.m */; };
 		9C4CFFCD20B136A300E6CF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4CFFCB20B136A300E6CF0E /* Main.storyboard */; };
 		9C4CFFCF20B136A400E6CF0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4CFFCE20B136A400E6CF0E /* Assets.xcassets */; };
 		9C4CFFD220B136A400E6CF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4CFFD020B136A400E6CF0E /* LaunchScreen.storyboard */; };
 		9C4CFFD520B136A400E6CF0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFD420B136A400E6CF0E /* main.m */; };
+		9C4CFFE220B13A1400E6CF0E /* zuopinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFE120B13A1400E6CF0E /* zuopinModel.m */; };
+		9C4CFFE620B13AE400E6CF0E /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFE520B13AE400E6CF0E /* UIColor+HexString.m */; };
+		9C4CFFE920B13B9700E6CF0E /* zuopinViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFE820B13B9700E6CF0E /* zuopinViewModel.m */; };
+		9C4CFFEE20B13DAC00E6CF0E /* UserInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFEA20B13DA700E6CF0E /* UserInfoManager.m */; };
+		9C4CFFEF20B13DAC00E6CF0E /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFEB20B13DA800E6CF0E /* NetWorkManager.m */; };
+		9C4CFFF220B13E4300E6CF0E /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFF020B13E4100E6CF0E /* PersonModel.m */; };
+		9C4CFFF620B1420300E6CF0E /* zuopinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFF520B1420300E6CF0E /* zuopinCell.m */; };
+		9C4CFFF920B146CB00E6CF0E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFF720B146CA00E6CF0E /* LoginViewController.m */; };
+		9C4CFFFC20B1572600E6CF0E /* zuopinRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFFB20B1572600E6CF0E /* zuopinRequest.m */; };
+		E97B91849DBBD3D2BA7FFEAC /* libPods-MVVM动态Cell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3EDE3769C432D3ECE51E7E /* libPods-MVVM动态Cell.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C4C000020B15F3100E6CF0E /* MomentsToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsToolBarView.m; sourceTree = "<group>"; };
 		9C4CFFC220B136A300E6CF0E /* MVVM动态Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM动态Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4CFFC520B136A300E6CF0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C4CFFC620B136A300E6CF0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +39,32 @@
 		9C4CFFD120B136A400E6CF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C4CFFD320B136A400E6CF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C4CFFD420B136A400E6CF0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C4CFFDF20B1388300E6CF0E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9C4CFFE020B13A1300E6CF0E /* zuopinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zuopinModel.h; sourceTree = "<group>"; };
+		9C4CFFE120B13A1400E6CF0E /* zuopinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zuopinModel.m; sourceTree = "<group>"; };
+		9C4CFFE420B13AE300E6CF0E /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		9C4CFFE520B13AE400E6CF0E /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		9C4CFFE720B13B9700E6CF0E /* zuopinViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zuopinViewModel.h; sourceTree = "<group>"; };
+		9C4CFFE820B13B9700E6CF0E /* zuopinViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zuopinViewModel.m; sourceTree = "<group>"; };
+		9C4CFFEA20B13DA700E6CF0E /* UserInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoManager.m; sourceTree = "<group>"; };
+		9C4CFFEB20B13DA800E6CF0E /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		9C4CFFEC20B13DAA00E6CF0E /* UserInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoManager.h; sourceTree = "<group>"; };
+		9C4CFFED20B13DAC00E6CF0E /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
+		9C4CFFF020B13E4100E6CF0E /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		9C4CFFF120B13E4300E6CF0E /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		9C4CFFF320B13FBD00E6CF0E /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		9C4CFFF420B1420300E6CF0E /* zuopinCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zuopinCell.h; sourceTree = "<group>"; };
+		9C4CFFF520B1420300E6CF0E /* zuopinCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zuopinCell.m; sourceTree = "<group>"; };
+		9C4CFFF720B146CA00E6CF0E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9C4CFFF820B146CB00E6CF0E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9C4CFFFA20B1572600E6CF0E /* zuopinRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zuopinRequest.h; sourceTree = "<group>"; };
+		9C4CFFFB20B1572600E6CF0E /* zuopinRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zuopinRequest.m; sourceTree = "<group>"; };
+		9C4CFFFD20B15F2D00E6CF0E /* MomentsBodyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsBodyView.m; sourceTree = "<group>"; };
+		9C4CFFFE20B15F2F00E6CF0E /* MomentsBodyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsBodyView.h; sourceTree = "<group>"; };
+		9C4CFFFF20B15F3000E6CF0E /* MomentsToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsToolBarView.h; sourceTree = "<group>"; };
+		C0C741854005E18BCA21A772 /* Pods-MVVM动态Cell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM动态Cell.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM动态Cell/Pods-MVVM动态Cell.release.xcconfig"; sourceTree = "<group>"; };
+		CB3EDE3769C432D3ECE51E7E /* libPods-MVVM动态Cell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVVM动态Cell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAED8B06E5AC4ED6A5A56D2 /* Pods-MVVM动态Cell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM动态Cell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM动态Cell/Pods-MVVM动态Cell.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +72,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97B91849DBBD3D2BA7FFEAC /* libPods-MVVM动态Cell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E7083A3087441BF87A586B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEAED8B06E5AC4ED6A5A56D2 /* Pods-MVVM动态Cell.debug.xcconfig */,
+				C0C741854005E18BCA21A772 /* Pods-MVVM动态Cell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9C4CFFB920B136A300E6CF0E = {
 			isa = PBXGroup;
 			children = (
 				9C4CFFC420B136A300E6CF0E /* MVVM动态Cell */,
 				9C4CFFC320B136A300E6CF0E /* Products */,
+				3E7083A3087441BF87A586B6 /* Pods */,
+				E37A9C812518924F281DF081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +111,13 @@
 			children = (
 				9C4CFFC520B136A300E6CF0E /* AppDelegate.h */,
 				9C4CFFC620B136A300E6CF0E /* AppDelegate.m */,
-				9C4CFFC820B136A300E6CF0E /* ViewController.h */,
-				9C4CFFC920B136A300E6CF0E /* ViewController.m */,
+				9C4CFFE320B13AD500E6CF0E /* Tools */,
+				9C4CFFDB20B1385000E6CF0E /* Model */,
+				9C4CFFDC20B1385000E6CF0E /* View */,
+				9C4CFFDD20B1385000E6CF0E /* ViewController */,
+				9C4CFFDE20B1385000E6CF0E /* ViewModel */,
+				9C4CFFDF20B1388300E6CF0E /* PrefixHeader.pch */,
+				9C4CFFF320B13FBD00E6CF0E /* Header.h */,
 				9C4CFFCB20B136A300E6CF0E /* Main.storyboard */,
 				9C4CFFCE20B136A400E6CF0E /* Assets.xcassets */,
 				9C4CFFD020B136A400E6CF0E /* LaunchScreen.storyboard */,
@@ -71,6 +127,73 @@
 			path = "MVVM动态Cell";
 			sourceTree = "<group>";
 		};
+		9C4CFFDB20B1385000E6CF0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C4CFFF120B13E4300E6CF0E /* PersonModel.h */,
+				9C4CFFF020B13E4100E6CF0E /* PersonModel.m */,
+				9C4CFFE020B13A1300E6CF0E /* zuopinModel.h */,
+				9C4CFFE120B13A1400E6CF0E /* zuopinModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C4CFFDC20B1385000E6CF0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C4CFFF420B1420300E6CF0E /* zuopinCell.h */,
+				9C4CFFF520B1420300E6CF0E /* zuopinCell.m */,
+				9C4CFFFE20B15F2F00E6CF0E /* MomentsBodyView.h */,
+				9C4CFFFD20B15F2D00E6CF0E /* MomentsBodyView.m */,
+				9C4CFFFF20B15F3000E6CF0E /* MomentsToolBarView.h */,
+				9C4C000020B15F3100E6CF0E /* MomentsToolBarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C4CFFDD20B1385000E6CF0E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C4CFFF820B146CB00E6CF0E /* LoginViewController.h */,
+				9C4CFFF720B146CA00E6CF0E /* LoginViewController.m */,
+				9C4CFFC820B136A300E6CF0E /* ViewController.h */,
+				9C4CFFC920B136A300E6CF0E /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9C4CFFDE20B1385000E6CF0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9C4CFFE720B13B9700E6CF0E /* zuopinViewModel.h */,
+				9C4CFFE820B13B9700E6CF0E /* zuopinViewModel.m */,
+				9C4CFFFA20B1572600E6CF0E /* zuopinRequest.h */,
+				9C4CFFFB20B1572600E6CF0E /* zuopinRequest.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9C4CFFE320B13AD500E6CF0E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9C4CFFED20B13DAC00E6CF0E /* NetWorkManager.h */,
+				9C4CFFEB20B13DA800E6CF0E /* NetWorkManager.m */,
+				9C4CFFEC20B13DAA00E6CF0E /* UserInfoManager.h */,
+				9C4CFFEA20B13DA700E6CF0E /* UserInfoManager.m */,
+				9C4CFFE420B13AE300E6CF0E /* UIColor+HexString.h */,
+				9C4CFFE520B13AE400E6CF0E /* UIColor+HexString.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E37A9C812518924F281DF081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB3EDE3769C432D3ECE51E7E /* libPods-MVVM动态Cell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C4CFFD820B136A400E6CF0E /* Build configuration list for PBXNativeTarget "MVVM动态Cell" */;
 			buildPhases = (
+				5E7BDD8BEE235078FC764592 /* [CP] Check Pods Manifest.lock */,
 				9C4CFFBE20B136A300E6CF0E /* Sources */,
 				9C4CFFBF20B136A300E6CF0E /* Frameworks */,
 				9C4CFFC020B136A300E6CF0E /* Resources */,
+				C98CD08E08544AD8B9829B24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +261,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E7BDD8BEE235078FC764592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM动态Cell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C98CD08E08544AD8B9829B24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM动态Cell/Pods-MVVM动态Cell-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/PYPhotoBrowser/PYPhotoBrowser/PYPhotosView.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYPhotosView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM动态Cell/Pods-MVVM动态Cell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C4CFFBE20B136A300E6CF0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4CFFEF20B13DAC00E6CF0E /* NetWorkManager.m in Sources */,
+				9C4CFFE620B13AE400E6CF0E /* UIColor+HexString.m in Sources */,
+				9C4CFFE920B13B9700E6CF0E /* zuopinViewModel.m in Sources */,
+				9C4C000120B15F3100E6CF0E /* MomentsBodyView.m in Sources */,
 				9C4CFFCA20B136A300E6CF0E /* ViewController.m in Sources */,
+				9C4CFFF620B1420300E6CF0E /* zuopinCell.m in Sources */,
 				9C4CFFD520B136A400E6CF0E /* main.m in Sources */,
+				9C4CFFEE20B13DAC00E6CF0E /* UserInfoManager.m in Sources */,
+				9C4CFFF220B13E4300E6CF0E /* PersonModel.m in Sources */,
+				9C4CFFFC20B1572600E6CF0E /* zuopinRequest.m in Sources */,
+				9C4CFFE220B13A1400E6CF0E /* zuopinModel.m in Sources */,
+				9C4CFFF920B146CB00E6CF0E /* LoginViewController.m in Sources */,
+				9C4C000220B15F3100E6CF0E /* MomentsToolBarView.m in Sources */,
 				9C4CFFC720B136A300E6CF0E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,9 +460,11 @@
 		};
 		9C4CFFD920B136A400E6CF0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAED8B06E5AC4ED6A5A56D2 /* Pods-MVVM动态Cell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM动态Cell/PrefixHeader.pch";
 				INFOPLIST_FILE = "MVVM动态Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +478,11 @@
 		};
 		9C4CFFDA20B136A400E6CF0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C741854005E18BCA21A772 /* Pods-MVVM动态Cell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MVVM动态Cell/PrefixHeader.pch";
 				INFOPLIST_FILE = "MVVM动态Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
