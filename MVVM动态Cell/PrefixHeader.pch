@@ -16,6 +16,8 @@
 #import "UserInfoManager.h"
 #import <PYPhotoBrowser.h>
 #import <SVProgressHUD.h>
+#import <UITableView+FDTemplateLayoutCell.h>
+
 /**
  *  屏幕宽高
  */

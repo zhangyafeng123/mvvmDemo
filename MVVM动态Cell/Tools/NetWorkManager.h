@@ -40,8 +40,6 @@
            failure:(void(^)(NSError *error))failureBlock;
 
 
-//检测网络状态
-+(void)afnreachability;
 
 
 

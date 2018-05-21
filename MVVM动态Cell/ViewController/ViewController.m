@@ -10,6 +10,10 @@
 #import "zuopinViewModel.h"
 #import "zuopinCell.h"
 #import "zuopinRequest.h"
+#import "NextViewController.h"
+
+
+NSString * const FFCellIndetfier  = @"fengfengCell";
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView *tableView;
@@ -19,9 +23,17 @@
 @end
 
 @implementation ViewController
-
+- (void)itemAction
+{
+    NextViewController *next = [[NextViewController alloc] init];
+    next.title = @"FDTemplateLayoutCell";
+    [self.navigationController pushViewController:next animated:YES];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"下一页" style:(UIBarButtonItemStylePlain) target:self action:@selector(itemAction)];
+    
     [self setUI];
     //请求数据
     [self loadData];
@@ -58,6 +70,8 @@
         //会自动消失
         [SVProgressHUD showErrorWithStatus:@"数据加载失败"];
     }];
+    
+    
 }
 - (void)refreshtoTopMethod
 {
@@ -104,6 +118,7 @@
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.backgroundColor = [UIColor grayColor];
         _tableView.backgroundColor = iCodeTableviewBgColor;
+        [_tableView registerClass:[zuopinCell class] forCellReuseIdentifier:FFCellIndetfier];
         //下拉刷新
         _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
         [_tableView.mj_header beginRefreshing];
@@ -132,6 +147,9 @@
     //取数据
     zuopinViewModel *momentFrame = self.zuopinFrames[indexPath.row];
     return momentFrame.cellHeight;
+    
+    
+    
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

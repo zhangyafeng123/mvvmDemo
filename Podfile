@@ -11,4 +11,6 @@ pod 'MJRefresh', '~> 3.1.15.3'
 pod 'AFNetworking', '~> 3.2.0'
 pod 'MJExtension', '~> 3.0.13'
 pod 'SVProgressHUD', '~> 2.2.5'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+pod 'Masonry', '~> 1.1.0'
 end

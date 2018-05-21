@@ -25,11 +25,7 @@
 
 +(instancetype)zuopinTableViewCellWithTableView:(UITableView *)tableView
 {
-    static NSString *reuseID = @"cell";
-    zuopinCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseID];
-    if (!cell) {
-        cell = [[zuopinCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseID];
-    }
+    zuopinCell *cell = [tableView dequeueReusableCellWithIdentifier:@"fengfengCell"];
     return cell;
 }
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{

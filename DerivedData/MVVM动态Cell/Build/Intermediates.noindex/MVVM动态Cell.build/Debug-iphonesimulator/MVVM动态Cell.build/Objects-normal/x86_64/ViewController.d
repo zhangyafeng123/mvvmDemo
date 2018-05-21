@@ -9,4 +9,5 @@ dependencies: \
   /Users/linjianguo/Desktop/MVVM动态Cell/MVVM动态Cell/ViewController/ViewController.h \
   /Users/linjianguo/Desktop/MVVM动态Cell/MVVM动态Cell/ViewModel/zuopinViewModel.h \
   /Users/linjianguo/Desktop/MVVM动态Cell/MVVM动态Cell/View/zuopinCell.h \
-  /Users/linjianguo/Desktop/MVVM动态Cell/MVVM动态Cell/ViewModel/zuopinRequest.h
+  /Users/linjianguo/Desktop/MVVM动态Cell/MVVM动态Cell/ViewModel/zuopinRequest.h \
+  /Users/linjianguo/Desktop/MVVM动态Cell/MVVM动态Cell/FDTemplateLayoutCell_TestDemo/NextViewController.h

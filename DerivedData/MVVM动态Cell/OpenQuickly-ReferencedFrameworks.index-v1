@@ -8,8 +8,8 @@
 	<string>Foundation</string>
 	<string>CoreGraphics</string>
 	<string>QuartzCore</string>
-	<string>SDWebImage</string>
 	<string>Security</string>
+	<string>SDWebImage</string>
 	<string>netinet6</string>
 	<string>CoreServices</string>
 	<string>UIKit</string>

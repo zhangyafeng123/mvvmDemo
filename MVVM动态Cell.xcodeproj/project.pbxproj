@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2A966920B269DE00908A51 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A966820B269DE00908A51 /* NextViewController.m */; };
+		9C2A966E20B26ADC00908A51 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A966C20B26ADC00908A51 /* TestCell.m */; };
 		9C4C000120B15F3100E6CF0E /* MomentsBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFFD20B15F2D00E6CF0E /* MomentsBodyView.m */; };
 		9C4C000220B15F3100E6CF0E /* MomentsToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C000020B15F3100E6CF0E /* MomentsToolBarView.m */; };
 		9C4CFFC720B136A300E6CF0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CFFC620B136A300E6CF0E /* AppDelegate.m */; };
@@ -28,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C2A966720B269DE00908A51 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		9C2A966820B269DE00908A51 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		9C2A966B20B26ADC00908A51 /* TestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		9C2A966C20B26ADC00908A51 /* TestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 		9C4C000020B15F3100E6CF0E /* MomentsToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsToolBarView.m; sourceTree = "<group>"; };
 		9C4CFFC220B136A300E6CF0E /* MVVM动态Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM动态Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4CFFC520B136A300E6CF0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +94,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9C2A966A20B26AA500908A51 /* FDTemplateLayoutCell_TestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9C2A966720B269DE00908A51 /* NextViewController.h */,
+				9C2A966820B269DE00908A51 /* NextViewController.m */,
+				9C2A966B20B26ADC00908A51 /* TestCell.h */,
+				9C2A966C20B26ADC00908A51 /* TestCell.m */,
+			);
+			path = FDTemplateLayoutCell_TestDemo;
+			sourceTree = "<group>";
+		};
 		9C4CFFB920B136A300E6CF0E = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +133,7 @@
 				9C4CFFDC20B1385000E6CF0E /* View */,
 				9C4CFFDD20B1385000E6CF0E /* ViewController */,
 				9C4CFFDE20B1385000E6CF0E /* ViewModel */,
+				9C2A966A20B26AA500908A51 /* FDTemplateLayoutCell_TestDemo */,
 				9C4CFFDF20B1388300E6CF0E /* PrefixHeader.pch */,
 				9C4CFFF320B13FBD00E6CF0E /* Header.h */,
 				9C4CFFCB20B136A300E6CF0E /* Main.storyboard */,
@@ -314,11 +332,13 @@
 				9C4CFFE920B13B9700E6CF0E /* zuopinViewModel.m in Sources */,
 				9C4C000120B15F3100E6CF0E /* MomentsBodyView.m in Sources */,
 				9C4CFFCA20B136A300E6CF0E /* ViewController.m in Sources */,
+				9C2A966E20B26ADC00908A51 /* TestCell.m in Sources */,
 				9C4CFFF620B1420300E6CF0E /* zuopinCell.m in Sources */,
 				9C4CFFD520B136A400E6CF0E /* main.m in Sources */,
 				9C4CFFEE20B13DAC00E6CF0E /* UserInfoManager.m in Sources */,
 				9C4CFFF220B13E4300E6CF0E /* PersonModel.m in Sources */,
 				9C4CFFFC20B1572600E6CF0E /* zuopinRequest.m in Sources */,
+				9C2A966920B269DE00908A51 /* NextViewController.m in Sources */,
 				9C4CFFE220B13A1400E6CF0E /* zuopinModel.m in Sources */,
 				9C4CFFF920B146CB00E6CF0E /* LoginViewController.m in Sources */,
 				9C4C000220B15F3100E6CF0E /* MomentsToolBarView.m in Sources */,
